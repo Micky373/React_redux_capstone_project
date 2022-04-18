@@ -7,6 +7,7 @@ const Details = () => {
   const { country } = params;
   const countries = useSelector((state) => state);
   const covidData = countries.data.filter((data) => data.CountryName === country);
+  const countryFlag = `https://countryflagsapi.com/png/${country}`;
   return (
     <>
       <div>
@@ -16,6 +17,7 @@ const Details = () => {
         {countries !== undefined
           ? (
             <div>
+              <img src={countryFlag} alt="flag" />
               <h2>
                 Country:
                 {covidData[0].CountryName}
