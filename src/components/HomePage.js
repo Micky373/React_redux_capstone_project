@@ -8,9 +8,8 @@ const HomePage = () => {
     <div>
       {loadingStatus === false
         ? countries.data.map(
-          (country, index) => (
+          (country) => (
             <DataRender
-              id={index}
               country={country.CountryName}
               key={country.ID}
             />

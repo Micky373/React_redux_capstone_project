@@ -11,7 +11,7 @@ export const fetchCountriesData = () => async (dispatch) => {
   try {
     const response = await axios.get('https://api.covid19api.com/summary');
     const countries = response.data.Countries;
-    const africa = ['Nigeria', 'Ghana', 'Ethiopia', 'Kenya', 'Sudan', 'Mali', 'Senegal', 'Cameroon', 'Rwanda', 'Chad'];
+    const africa = ['Nigeria', 'Ghana', 'Ethiopia', 'Kenya', 'Sudan', 'Mali', 'Senegal', 'Cameroon', 'Rwanda', 'Chad', 'Eritrea', 'Gambia', 'Burundi', 'Sierra Leone', 'Zimbabwe'];
     const payload = [];
     for (let i = 0; i < countries.length; i += 1) {
       if (africa.indexOf(countries[i].Country) !== -1) {

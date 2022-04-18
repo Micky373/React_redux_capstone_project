@@ -4,8 +4,9 @@ import { useParams } from 'react-router-dom';
 
 const Details = () => {
   const params = useParams();
-  const { index } = params;
+  const { country } = params;
   const countries = useSelector((state) => state);
+  const covidData = countries.data.filter((data) => data.CountryName === country);
   return (
     <>
       <div>
@@ -17,31 +18,31 @@ const Details = () => {
             <div>
               <h2>
                 Country:
-                {countries.data[index].CountryName}
+                {covidData[0].CountryName}
               </h2>
               <h2>
                 Date:
-                {countries.data[index].Date}
+                {covidData[0].Date}
               </h2>
               <h2>
                 Total Confirmed Cases:
-                {countries.data[index].TotalConfirmed}
+                {covidData[0].TotalConfirmed}
               </h2>
               <h2>
                 New Confirmed Cases:
-                {countries.data[index].NewConfirmed}
+                {covidData[0].NewConfirmed}
               </h2>
               <h2>
                 New Recovered:
-                {countries.data[index].NewRecovered}
+                {covidData[0].NewRecovered}
               </h2>
               <h2>
                 Total Deaths:
-                {countries.data[index].TotalDeath}
+                {covidData[0].TotalDeath}
               </h2>
               <h2>
                 New Deaths:
-                {countries.data[index].NewDeath}
+                {covidData[0].NewDeath}
               </h2>
             </div>
           ) : <h1>***Loading***</h1>}
