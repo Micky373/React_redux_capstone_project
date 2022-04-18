@@ -1,15 +1,15 @@
-import { useDispatch } from "react-redux";
-import { fetchCountriesData } from "./redux/covidData/covidData";
-import React, { useEffect } from "react";
-import HomePage from "./components/HomePage";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import Details from "./components/Details";
+import { useDispatch } from 'react-redux';
+import React, { useEffect } from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { fetchCountriesData } from './redux/covidData/covidData';
+import HomePage from './components/HomePage';
+import Details from './components/Details';
 
 const App = () => {
-  const dispatch = useDispatch()
+  const dispatch = useDispatch();
   useEffect(() => {
-    dispatch(fetchCountriesData())
-  }, [])
+    dispatch(fetchCountriesData());
+  }, []);
   return (
     <Router>
       <Routes>
@@ -17,7 +17,7 @@ const App = () => {
         <Route exact path="/Details/:index" element={<Details />} />
       </Routes>
     </Router>
-  )
-}
+  );
+};
 
-export default App
+export default App;
