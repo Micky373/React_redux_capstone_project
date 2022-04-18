@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DataRender componenet testing DataRender snapshot 1`] = `
+<a
+  href="#/Details/2"
+  onClick={[Function]}
+>
+  <p>
+    Ethiopia
+  </p>
+</a>
+`;

@@ -4,7 +4,6 @@ import DataRender from "./DataRender";
 const HomePage = () => {
   const countries = useSelector((state) => state)
   const loadingStatus = countries.loading
-
   return (
     <div>
       {loadingStatus === false ?
