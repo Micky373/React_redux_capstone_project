@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: lato, sans-serif;
+}
+
+html {
+  background-color: #f72585;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 3rem;
+}
+
+.nav_bar {
+  background-color: #910b47;
+  padding: 1rem;
+  color: white;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  opacity: 0.9;
+  width: 100%;
+}
+
+.nav_buttons {
+  font-size: 2rem;
+}
+
+.microphone_button {
+  font-size: 2rem;
+  margin-left: 10%;
+}
+
+.nav_header {
+  margin-left: 3rem;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.image_wrapper{
+  height: 40vh;
+  background: url(./images/corona.jpg);
+  background-size: cover;
+  margin: 1rem;
+  position: relative;
+}
+
+.image_container {
+  height: 100%;
+  position: relative;
+  background:
+    linear-gradient(
+      to right,
+      rgba(209, 10, 69, 0),
+      #c9376f
+    );
+}  
+
+.next_icon {
+  margin-top: 1rem;
+  margin-left: 100%;
+}
+
+.country_name {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.details_container {
+  height: 100%;
+  margin: 2rem;
+  text-align: center;
+  padding: 2rem;
+  border-radius: 3rem;
+  background-color: #4361ee;
+}
+
+.description_header {
+  color: #3a0ca3;
+  margin-bottom: 1rem;
+}
+
+.description_container {
+  display: flex;
+  flex-direction: column;
+  color: #3a0ca3;
+}
+
+.description {
+  background:
+    linear-gradient(
+      to right,
+      rgba(209, 10, 69, 0),
+      #c9376f
+    );
+  margin: 1rem;
+  font-size: 1.5rem;
+}
+
+a {
+  text-decoration: none;
+  color: #4cc9f0;
+}
+
+.country_link_container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: 40rem;
+  gap: 0.5rem;
+}
+
+a.country_link{
+  width: 13rem;
+  margin: 0;
+  height: 10rem;
+  border: 1px solid #c9376f;
+  padding: 0 2rem;
+  background-color: #b5179e;
+  font-size: 1.1rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+a.country_link:hover{
+  background-color: #7209b7;  
+}

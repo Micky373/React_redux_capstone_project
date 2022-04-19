@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import { fetchCountriesData } from './redux/covidData/covidData';
 import HomePage from './components/HomePage';
 import Details from './components/Details';
+import './App.css';
 
 const App = () => {
   const dispatch = useDispatch();
