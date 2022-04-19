@@ -120,7 +120,7 @@ a {
 }
 
 a.country_link{
-  width: 13rem;
+  width: 10rem;
   margin: 0;
   height: 10rem;
   border: 1px solid #c9376f;
@@ -134,4 +134,8 @@ a.country_link{
 
 a.country_link:hover{
   background-color: #7209b7;  
+}
+
+.country_flag {
+  width:15rem
 }

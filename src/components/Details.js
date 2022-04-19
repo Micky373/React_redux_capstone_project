@@ -21,7 +21,7 @@ const Details = () => {
         <div>
           <h1 className="description_header">{`${country}'s Covid Data`}</h1>
         </div>
-        <img src={countryFlag} alt="country flag" />
+        <img className="country_flag" src={countryFlag} alt="country flag" />
         <div>
           {countries !== undefined
             ? (
