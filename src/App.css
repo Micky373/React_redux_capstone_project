@@ -16,7 +16,7 @@ html {
   align-items: center;
   padding-bottom: 3rem;
   background-image: url('./images/africa.svg');
-  background-repeat: no-repeat ;
+  background-repeat: no-repeat;
   background-size: 100%;
   background-position: center 30%;
 }
@@ -47,7 +47,7 @@ html {
   font-size: 1.5rem;
 }
 
-.image_wrapper{
+.image_wrapper {
   height: 40vh;
   background: url(./images/corona.jpg);
   background-size: cover;
@@ -64,7 +64,7 @@ html {
       rgba(209, 10, 69, 0),
       #c9376f
     );
-}  
+}
 
 .next_icon {
   margin-top: 1rem;
@@ -115,7 +115,7 @@ a {
   color: #4cc9f0;
 }
 
-.country_link_container{
+.country_link_container {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -124,7 +124,7 @@ a {
   opacity: 0.8;
 }
 
-a.country_link{
+a.country_link {
   width: 10rem;
   margin: 0;
   height: 10rem;
@@ -137,15 +137,15 @@ a.country_link{
   flex-direction: column;
 }
 
-a.country_link:hover{
-  background-color: #7209b7;  
+a.country_link:hover {
+  background-color: #7209b7;
 }
 
 .country_flag {
-  width:15rem
+  width: 15rem;
 }
 
-@media (min-width:800px) {
+@media (min-width: 800px) {
   #root {
     background-size: 100%;
   }
@@ -154,12 +154,12 @@ a.country_link:hover{
     font-size: 3rem;
     margin-left: 1rem;
   }
-  
+
   .microphone_button {
     font-size: 3rem;
     margin-left: 50%;
   }
-  
+
   .nav_header {
     margin-left: 8rem;
     text-align: center;
@@ -171,7 +171,8 @@ a.country_link:hover{
     height: 10rem;
   }
 
-  .next_icon,.country_name {
+  .next_icon,
+  .country_name {
     font-size: 1.5rem;
   }
 
@@ -180,7 +181,6 @@ a.country_link:hover{
   }
 
   .country_flag {
-    width:30rem
+    width: 30rem;
   }
-  
 }
