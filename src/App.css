@@ -139,6 +139,8 @@ a.country_link {
 
 a.country_link:hover {
   background-color: #7209b7;
+  border: 3px solid #c9376f;
+  transform: scale(1.1);
 }
 
 .country_flag {
