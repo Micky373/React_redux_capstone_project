@@ -31,6 +31,10 @@ To get a local copy up and running follow these simple example steps.
 - GitHub: [Michael Tamirie](https://github.com/Micky373)
 - LinkedIn: [Michael Tamirie](https://www.linkedin.com/in/michael-tamirie-288a331ab)
 
+## Acknowledgments
+
+- Original design idea by [Nelson Sakwa on Behance](https://www.behance.net/sakwadesignstudio)
+
 ## Show your support
 
 Give a ⭐ if you like this project!
