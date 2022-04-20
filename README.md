@@ -6,9 +6,9 @@
 
 ![screenshot](/src/images/screenShot.PNG)
 
-<!-- ## Live Demo
+## Live Demo
 
-- [Space_travelers_hub](https://exquisite-squirrel-f8cae3.netlify.app/) -->
+- [COVID African Data](https://dapper-biscuit-0dbbad.netlify.app/)
 
 ## Built With
 
