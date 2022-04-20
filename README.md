@@ -8,11 +8,7 @@
 
 ## Live Demo
 
-- [COVID African Data](https://dapper-biscuit-0dbbad.netlify.app/)
-
-## Video presentation
-
-[Video Presentation Link](https://www.loom.com/share/81bdfd376c0a4653a059635b769f30cb)
+- [COVID African Data](https://polite-beijinho-8f9ee9.netlify.app/)
 
 ## Built With
 
