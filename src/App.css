@@ -33,7 +33,7 @@ html {
 
 .nav_bar {
   background-color: #910b47;
-  padding: 1rem;
+  padding: 1rem 2rem;
   color: white;
   display: flex;
   gap: 1rem;
@@ -52,7 +52,7 @@ html {
 }
 
 .nav_header {
-  margin-left: 3rem;
+  margin-left: 2rem;
   text-align: center;
   font-size: 1.5rem;
 }
@@ -61,8 +61,9 @@ html {
   height: 40vh;
   background: url(./images/corona.jpg);
   background-size: cover;
-  margin: 1rem;
+  margin: 1rem 0;
   position: relative;
+  opacity: 0.9;
 }
 
 .image_container {
@@ -78,6 +79,7 @@ html {
 
 .search_item_container {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   margin: 1rem;
