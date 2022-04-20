@@ -39,6 +39,10 @@ To get a local copy up and running follow these simple example steps.
 
 - Original design idea by [Nelson Sakwa on Behance](https://www.behance.net/sakwadesignstudio)
 
+## 📝 License
+
+This project is [MIT](./LICENSE.md) licensed.
+
 ## Show your support
 
 Give a ⭐ if you like this project!
