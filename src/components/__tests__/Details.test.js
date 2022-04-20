@@ -4,12 +4,15 @@ import { Provider } from 'react-redux';
 import { render, screen } from '@testing-library/react';
 import Details from '../Details';
 import store from '../../redux/configureStore';
+import { HashRouter } from 'react-router-dom';
 import '@testing-library/jest-dom';
 
 jest.mock('../../redux/covidData/covidData.js');
 const element = (
   <Provider store={store}>
-    <Details />
+    <HashRouter>
+      <Details />
+    </HashRouter>
   </Provider>
 );
 
@@ -20,6 +23,6 @@ it('it works', () => {
 
 it('Render check', () => {
   render(element);
-  const dataRender = screen.getByText('Covid Data');
+  const dataRender = screen.getByText('COVID cases per country');
   expect(dataRender).toBeInTheDocument();
 });

@@ -2,11 +2,23 @@
 
 exports[`DataRender componenet testing DataRender snapshot 1`] = `
 <a
-  href="#/Details/2"
+  className="country_link"
+  href="#/Details/Ethiopia"
   onClick={[Function]}
 >
-  <p>
-    Ethiopia
-  </p>
+  <i
+    aria-hidden="true"
+    className="fa fa-arrow-circle-right next_icon"
+  />
+  <span
+    className="country_name"
+  >
+    <p>
+      Ethiopia
+    </p>
+    <p>
+      100000
+    </p>
+  </span>
 </a>
 `;

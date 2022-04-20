@@ -2,8 +2,47 @@
 
 exports[`it works 1`] = `
 <div>
-  <h1>
-    ***Loading***
-  </h1>
+  <div
+    className="nav_bar"
+  >
+    <span
+      className="nav_header"
+    >
+      Top 20 African countries COVID cases
+    </span>
+    <i
+      aria-hidden="true"
+      className="fa fa-microphone microphone_button"
+    />
+    <i
+      aria-hidden="true"
+      className="fa fa-gear nav_buttons"
+    />
+  </div>
+  <div
+    className="image_wrapper"
+  >
+    <div
+      className="image_container"
+    />
+  </div>
+  <p
+    className="search_item_container"
+  >
+    Search:  
+    <input
+      onChange={[Function]}
+      placeholder="Search by country"
+      type="text"
+      value=""
+    />
+  </p>
+  <div
+    className="country_link_container"
+  >
+    <h1>
+      ***Loading***
+    </h1>
+  </div>
 </div>
 `;

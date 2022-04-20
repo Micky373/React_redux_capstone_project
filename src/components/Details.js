@@ -6,7 +6,10 @@ const Details = () => {
   const params = useParams();
   const { country } = params;
   const countries = useSelector((state) => state);
-  const covidData = countries.data.filter((data) => data.CountryName === country);
+  let covidData = [];
+  if (countries !== undefined) {
+    covidData = countries.data.filter((data) => data.CountryName === country);
+  }
   const countryFlag = `https://countryflagsapi.com/png/${country}`;
 
   return (
