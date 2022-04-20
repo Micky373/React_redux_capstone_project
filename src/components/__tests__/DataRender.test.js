@@ -10,7 +10,7 @@ describe('DataRender componenet testing', () => {
   const element = (
     <Provider store={store}>
       <HashRouter>
-        <DataRender total={'100000'} country="Ethiopia" />
+        <DataRender total="100000" country="Ethiopia" />
       </HashRouter>
     </Provider>
   );

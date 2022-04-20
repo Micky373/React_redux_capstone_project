@@ -1,4 +1,4 @@
-import reducer from "../../redux/covidData/covidData";
+import reducer from '../../redux/covidData/covidData';
 
 const mockStore = {
   data: {
@@ -11,16 +11,16 @@ const mockStore = {
     TotalDeath: '110',
     NewDeath: '0',
   },
-  loading: false
-}
+  loading: false,
+};
 
 describe('Reducer test', () => {
   it('Initial state', () => {
-    expect(reducer([], {})).toEqual([])
-  })
+    expect(reducer([], {})).toEqual([]);
+  });
 
   it('Reduces well when given an action', () => {
-    const FETCH_SUCCESS = 'FETCH_SUCCESS'
+    const FETCH_SUCCESS = 'FETCH_SUCCESS';
     const action = {
       type: FETCH_SUCCESS,
       payload: {
@@ -32,8 +32,8 @@ describe('Reducer test', () => {
         NewRecovered: '100',
         TotalDeath: '110',
         NewDeath: '0',
-      }
-    }
-    expect(reducer([], action)).toEqual(mockStore)
-  })
-})
+      },
+    };
+    expect(reducer([], action)).toEqual(mockStore);
+  });
+});
