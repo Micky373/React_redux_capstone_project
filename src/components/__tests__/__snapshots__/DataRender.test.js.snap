@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DataRender componenet testing DataRender snapshot 1`] = `
+<a
+  className="country_link"
+  href="#/Details/Ethiopia"
+  onClick={[Function]}
+>
+  <i
+    aria-hidden="true"
+    className="fa fa-arrow-circle-right next_icon"
+  />
+  <span
+    className="country_name"
+  >
+    <p>
+      Ethiopia
+    </p>
+    <p>
+      100000
+    </p>
+  </span>
+</a>
+`;
